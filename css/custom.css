@@ -1,0 +1,61 @@
+/* this is a custom CSS stylesheet */
+
+header {
+	font-size: 1000%;
+	text-align: right;
+	font-family: Verdana, sans-serif;
+}
+
+footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #000;
+	color: #999;
+	text-align: center;
+}
+
+.glyphicon {
+	color: #cdae51;
+}
+
+.glyphicon-pushpin,
+.glyphicon-heart {
+	color: #3f2b22;
+}
+
+.img-responsive {
+	margin: 3em 0 3em 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-info {
+	background-color: #cdae51;
+	border-color: #3f2b22;
+	color: #fff;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #ffffff;
+  background-color: #3F2B22;
+  border-color: #333;
+}
+
+.banner {
+	margin-bottom: 0;
+}
+
+.blurb {
+	margin-top: 2em;
+	text-align: center;
+	color: #aaa;
+}
+
+.navbar-default {
+	border-color: #000000;
+	background-color: #000000;
+}

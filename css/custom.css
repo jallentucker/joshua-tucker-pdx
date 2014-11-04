@@ -1,8 +1,20 @@
 /* this is a custom CSS stylesheet */
 
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+@media (min-width: @screen-sm-min) {
+	header {
+		font-size: 500%;
+	}
+}
+
 header {
 	font-size: 1000%;
-	text-align: right;
+	text-align: center;
 	font-family: Verdana, sans-serif;
 }
 
@@ -12,6 +24,14 @@ footer {
 	border-top: 1px solid #000;
 	color: #999;
 	text-align: center;
+}
+
+a:link {
+	color: #907500;
+}
+
+a:visited {
+	color: #ddb400;
 }
 
 .glyphicon {

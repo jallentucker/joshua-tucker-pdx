@@ -115,4 +115,15 @@ a:visited {
 
 .nav-pills > li > a:hover {
 	color: #000000;
+	background-color: #eeeeee;
+}
+
+.nav-pills > li.active > a {
+	background-color: #cccccc;
+	color: #000000;
+}
+
+.nav-pills > li.active > a:hover {
+	background-color: #eeeeee;
+	color: #000000;
 }

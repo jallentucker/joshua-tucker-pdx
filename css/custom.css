@@ -26,8 +26,9 @@ header {
 
 body {
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	background-position: center top;
+	background-attachment: fixed;
 }
 
 header > a:visited {

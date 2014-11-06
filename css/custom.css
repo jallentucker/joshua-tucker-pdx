@@ -1,21 +1,53 @@
 /* this is a custom CSS stylesheet */
 
+header {
+	font-size: 250%;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+}
+
+@media (min-width: 768px) {
+	header {
+		font-size: 500%;
+	}
+}
+
+@media (min-width: 992px) {
+	header {
+		font-size: 750%;
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		font-size: 1000%;
+	}
+}
+
 body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center top;
 }
 
-@media (min-width: @screen-sm-min) {
-	header {
-		font-size: 500%;
-	}
+header > a:visited {
+	color: #000000;
+	text-decoration: none;
 }
 
-header {
-	font-size: 1000%;
-	text-align: center;
-	font-family: Verdana, sans-serif;
+header > a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+header > a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+header > a:active {
+	color: #000000;
+	text-decoration: none;
 }
 
 footer {
@@ -32,15 +64,6 @@ a:link {
 
 a:visited {
 	color: #ddb400;
-}
-
-.glyphicon {
-	color: #cdae51;
-}
-
-.glyphicon-pushpin,
-.glyphicon-heart {
-	color: #3f2b22;
 }
 
 .img-responsive {
@@ -69,13 +92,27 @@ a:visited {
 	margin-bottom: 0;
 }
 
-.blurb {
-	margin-top: 2em;
-	text-align: center;
-	color: #aaa;
-}
-
 .navbar-default {
 	border-color: #000000;
 	background-color: #000000;
+}
+
+.nav-pills > li > a {
+	border-radius: 0px;
+}
+
+.nav-pills {
+	background-color: #000000;
+}
+
+.nav-pills > li > a:link {
+	color: #afd5f6;
+}
+
+.nav-pills > li > a:visited {
+	color: #afd5f6;
+}
+
+.nav-pills > li > a:hover {
+	color: #000000;
 }

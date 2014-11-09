@@ -27,8 +27,8 @@ header {
 body {
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-position: center top;
-	background-attachment: fixed;
+/*	background-position: center top;
+*/	background-attachment: fixed;
 }
 
 header > a:visited {
@@ -59,12 +59,20 @@ footer {
 	text-align: center;
 }
 
+footer > p > button > a:link {
+	color: #000000;
+}
+
+footer > p > button > a:visited {
+	color: #000000;
+}
+
 a:link {
-	color: #907500;
+	color: #fb1b21;
 }
 
 a:visited {
-	color: #ddb400;
+	color: #fb1b21;
 }
 
 .img-responsive {
@@ -129,17 +137,37 @@ a:visited {
 	color: #000000;
 }
 
-.transparent-box {
+.projects-transparent-box {
 	margin-top: 3em;
-	height: 4em;
+	height: 6.5em;
 	opacity: 0.6;
 	border: 1px solid transparent;
 	background-color: white;
 	border-radius: 4px;
 }
 
-.blurb {
+.projects-blurb {
 	position: relative;
-	top: -3.5em;
+	top: -6em;
 	text-align: center;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.index-transparent-box {
+	margin-top: 3em;
+	height: 24em;
+	opacity: 0.6;
+	border: 1px solid transparent;
+	background-color: white;
+	border-radius: 4px;
+}
+
+.index-blurb {
+	position: relative;
+	top: -23.5em;
+	text-align: right;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-bottom: -23.5em;
 }

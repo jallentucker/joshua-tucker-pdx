@@ -6,29 +6,15 @@ header {
 	font-family: Verdana, sans-serif;
 }
 
-body {
-	background-repeat: no-repeat;
-	background-size: 250%;
-	background-attachment: fixed;
-}
-
 @media (min-width: 768px) {
 	header {
 		font-size: 500%;
-	}
-
-	body {
-		background-size: 150%;
 	}
 }
 
 @media (min-width: 992px) {
 	header {
 		font-size: 750%;
-	}
-
-	body {
-		background-size: 100%;
 	}
 }
 
@@ -86,6 +72,7 @@ a:visited {
 	margin: 3em 0 3em 0;
 	margin-left: auto;
 	margin-right: auto;
+	border: 1px solid black;
 }
 
 .btn-info {
@@ -144,37 +131,22 @@ a:visited {
 	color: #000000;
 }
 
-.projects-transparent-box {
-	margin-top: 3em;
-	height: 6.5em;
-	opacity: 0.6;
-	border: 1px solid transparent;
-	background-color: white;
-	border-radius: 4px;
-}
-
 .projects-blurb {
-	position: relative;
-	top: -6em;
 	text-align: center;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-}
-
-.index-transparent-box {
-	margin-top: 3em;
-	height: 24em;
-	opacity: 0.6;
-	border: 1px solid transparent;
-	background-color: white;
+	padding: 0.5em;
+	border: 1px solid black;
 	border-radius: 4px;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	background-color: #f6d0af;
 }
 
 .index-blurb {
-	position: relative;
-	top: -23.5em;
 	text-align: right;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	margin-bottom: -23.5em;
+	padding: 0.5em;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	background-color: #f6d0af;
 }

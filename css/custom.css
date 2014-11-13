@@ -6,9 +6,19 @@ header {
 	font-family: Verdana, sans-serif;
 }
 
+body {
+	background-repeat: no-repeat;
+	background-size: 250%;
+	background-attachment: fixed;
+}
+
 @media (min-width: 768px) {
 	header {
 		font-size: 500%;
+	}
+
+	body {
+		background-size: 150%;
 	}
 }
 
@@ -16,19 +26,16 @@ header {
 	header {
 		font-size: 750%;
 	}
+
+	body {
+		background-size: 100%;
+	}
 }
 
 @media (min-width: 1200px) {
 	header {
 		font-size: 1000%;
 	}
-}
-
-body {
-	background-repeat: no-repeat;
-	background-size: 100%;
-/*	background-position: center top;
-*/	background-attachment: fixed;
 }
 
 header > a:visited {

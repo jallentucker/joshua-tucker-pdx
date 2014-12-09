@@ -142,11 +142,17 @@ a:visited {
 }
 
 .index-blurb {
-	text-align: right;
+	text-align: center;
 	padding: 0.5em;
 	border: 1px solid black;
 	border-radius: 4px;
 	margin-top: 3em;
 	margin-bottom: 3em;
 	background-color: #f6d0af;
+}
+
+@media (min-width: 768px) {
+	.index-blurb {
+		text-align: right;
+	}
 }
